@@ -8,6 +8,7 @@ const auth = {
     auth: {
         api_key: '',
         domain: ''
+
     }
 };
 

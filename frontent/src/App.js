@@ -39,6 +39,7 @@ export function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/awards" element={<Awards data={landingPageData.Awards} />} />
       
+        <Route path="/contact" element={<Footer data={landingPageData.Footer} />} />
        
       </Routes>
       

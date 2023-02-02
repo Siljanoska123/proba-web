@@ -5,7 +5,7 @@ const controller = require('../controllers/forms');
 
 // router.use(jwt({ secret: 'shhhhhhared-secret', algorithms: ['HS256']}).unless({path: ['/token']}));
 router
-      .post('/sentEmail', controller.sentEmail)
+      .post('/', controller.sentEmail)
 
 
 module.exports = router;

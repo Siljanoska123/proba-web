@@ -2,8 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import { api } from '../constants/api'
 import '../css-components/footer.css'
-
-
+import JsonData from '../data/data.json'
 export const Footer = (props) => {
   const [name, setName] = useState('');
   const [companyName, setCompanyName] = useState('')
@@ -11,6 +10,7 @@ export const Footer = (props) => {
   const [email, setEmail] = useState('')
   const [text, setText] = useState('');
 
+  const [landingPageData, setLandingPageData] = useState({});
   function pushForm(e) {
 
     let podatok = {
@@ -22,12 +22,12 @@ export const Footer = (props) => {
 
     }
 
-    fetch('http://localhost:4000/forms/email', {
+    fetch('http://localhost:4000', {
       method: 'POST',
       headers: {
-        'Content-Type': 'application/json',
+        'Content-Type': 'JsonData',
       },
-      body:podatok
+      body:JsonData
     })
       .then(res => res.json()
       )
