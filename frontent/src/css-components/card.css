@@ -1,0 +1,90 @@
+/* #card-description {
+    padding: 100px 0px;
+
+} */
+
+.section-overview {
+    background-color: rgb(239, 243, 245);
+    margin-left: -15px;
+    border-top-right-radius: 50px;
+    /* border-radius: 50% 20% / 10% 40%; */
+    color: rgb(44, 44, 44);
+    height: 400px;
+}
+
+.section-title {
+   
+    font-size: 30px;
+    letter-spacing: 0.17px;
+    /* text-align: left; */
+    padding: 40px 40px 0px 40px;
+}
+
+.section-text {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    padding: 0px 50px 20px 50px;
+    margin-top: -20px;
+    
+}
+
+.img-responsive2{
+    border-top-right-radius: 50px;
+    border: 3px solid black;
+    color: rgb(44, 44, 44);
+    height: 400px;
+    overflow: hidden;
+    margin-left: 50px;
+}
+.section-benefits {
+    border-top-right-radius: 50px;
+    border: 3px solid black;
+    color: rgb(44, 44, 44);
+    height: 525px;
+    margin-top: 70px;
+    margin-left: -15px;
+}
+
+
+
+.section-text-benefits {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    padding: 0px 50px 20px 50px;
+}
+
+.section-benefits ol {
+    list-style: none;
+    counter-reset: my-awesome-counter;
+
+}
+
+.section-benefits li {
+    counter-increment: my-awesome-counter;
+    font-size: 22px;
+    letter-spacing: 0.43px;
+    line-height: 24px;
+    padding-bottom: 20px;
+
+}
+
+.section-benefits li:before {
+    content: counter(my-awesome-counter) " ";
+    color: rgb(206, 44, 48);
+    font-weight: bold;
+    font-size: 40px;
+    margin-right: 50px;
+
+}
+.section-methodology {
+    background-color: rgb(239, 243, 245);
+    border-top-right-radius: 50px;
+    color: rgb(44, 44, 44);
+    margin-top: 70px;
+    height: 525px;
+    margin-left: 50px;
+    margin-right: -20px;
+  
+}
